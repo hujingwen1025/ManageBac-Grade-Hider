@@ -3,6 +3,11 @@
   "name": "ManageBac Grade Hider",
   "version": "2.1",
   "description": "Hide score-related information on ManageBac pages.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "permissions": [],
   "host_permissions": [
     "https://*.managebac.com/*",
