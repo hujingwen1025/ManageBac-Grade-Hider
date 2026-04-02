@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "ManageBac Grade Hider",
+  "version": "2.1",
+  "description": "Hide score-related information on ManageBac pages.",
+  "permissions": [],
+  "host_permissions": [
+    "https://*.managebac.com/*",
+    "https://*.managebac.us/*",
+    "https://*.managebac.cn/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.managebac.com/*",
+        "https://*.managebac.us/*",
+        "https://*.managebac.cn/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
